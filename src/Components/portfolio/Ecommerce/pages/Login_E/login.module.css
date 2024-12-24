@@ -1,0 +1,51 @@
+.formFiled {
+  width: 300px;
+
+  text-align: center;
+}
+.container {
+  display: grid;
+  place-content: center;
+
+  height: 60vh;
+}
+.current {
+  text-align: center;
+  padding: 20px 0px;
+}
+.current h2 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.input input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.pass {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+.pass p {
+  padding: 7px 3px;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.pass p:hover {
+  border: 1px solid green;
+}
+.submitButton {
+  padding: 7px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.submitButton:hover {
+  background-color: rgb(3, 90, 3);
+}

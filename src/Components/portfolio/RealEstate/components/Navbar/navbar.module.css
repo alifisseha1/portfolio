@@ -1,0 +1,33 @@
+.navbar img {
+  width: 40px;
+}
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  justify-content: space-between;
+  align-content: center;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  align-items: center;
+  padding: 10px 30px;
+}
+.navbar ul a {
+  margin-right: 15px;
+  padding-bottom: 5px;
+}
+.navbar ul a:hover {
+  border-bottom: 1px solid white;
+}
+.navbar button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.logoImage {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 15px;
+  align-items: center;
+}

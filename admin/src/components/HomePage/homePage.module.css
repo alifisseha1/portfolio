@@ -1,0 +1,15 @@
+.container {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 18% 1fr;
+  grid-template-rows: max-content 1fr;
+}
+.nav {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+.side {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}

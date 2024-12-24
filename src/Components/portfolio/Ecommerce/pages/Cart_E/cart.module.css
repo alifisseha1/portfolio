@@ -1,0 +1,66 @@
+.cartList {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: max-content 230px 1fr 1fr;
+
+  color: rgb(94, 92, 92);
+  column-gap: 10px;
+  padding: 5px 0px;
+  align-items: center;
+  border-bottom: 1px solid rgb(230, 228, 228);
+}
+.wraper {
+  padding: 20px;
+}
+.nameList {
+  font-size: 14px;
+}
+.nameList span {
+  display: inline-block;
+  margin-top: 8px;
+}
+.hr {
+  border: 1px solid rgb(230, 228, 228);
+}
+.size {
+  margin-left: 9px;
+  background-color: #eeeded;
+  padding: 3px 5px;
+  font-size: 12px;
+}
+.input {
+  justify-self: end;
+}
+.input input {
+  width: 60px;
+  border: 1px solid rgb(177, 175, 175);
+  outline: none;
+  padding: 3px;
+}
+
+.delete {
+  justify-self: end;
+  cursor: pointer;
+}
+.delete:hover {
+  color: red;
+}
+.total {
+  display: grid;
+  justify-content: end;
+  margin-top: 20px;
+}
+.box {
+  width: 300px;
+}
+.buttonP {
+  text-align: right;
+  padding: 5px 0px;
+}
+.buttonP button {
+  background-color: rgb(5, 99, 5);
+  color: white;
+  padding: 10px 12px;
+  border: none;
+  cursor: pointer;
+}

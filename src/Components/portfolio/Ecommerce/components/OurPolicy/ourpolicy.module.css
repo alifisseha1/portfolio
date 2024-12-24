@@ -1,0 +1,25 @@
+.text {
+  text-align: center;
+
+  padding: 20px 0px;
+  background-color: #efecec;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  padding: 20px;
+  margin-top: 20px;
+  color: black;
+}
+.textP {
+  font-size: 10px;
+  color: gray;
+}
+@media screen and (max-width: 570px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+}

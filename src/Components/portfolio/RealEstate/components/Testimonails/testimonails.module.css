@@ -1,0 +1,30 @@
+.container {
+  height: 100vh;
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding-top: 60px;
+  border-top: 1px solid gray;
+}
+.testimonial {
+  font-size: 23px;
+  text-decoration: underline;
+  font-weight: 100;
+}
+.testimonialContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  width: 80%;
+  margin: 60px auto;
+}
+.testimonialBox {
+  background-color: white;
+
+  padding: 15px;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.testimonialBox img {
+  width: 100%;
+  margin-bottom: 10px;
+}

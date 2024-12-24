@@ -1,0 +1,37 @@
+.list {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+.list_table_format {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  border: 1px solid #cacaca;
+  font-size: 13px;
+  border-top: none;
+}
+.list_table_format.title {
+  background-color: rgb(79, 206, 93);
+}
+.list_table_format img {
+  width: 60px;
+  height: 50px;
+}
+.close {
+  cursor: pointer;
+
+  width: 30px;
+  display: grid;
+  place-content: center;
+}
+.close:hover {
+  color: red;
+}
+.all {
+  font-size: 20px;
+  font-weight: bolder;
+}

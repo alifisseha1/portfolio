@@ -1,0 +1,33 @@
+.box {
+  text-align: center;
+  padding: 40px 0px;
+  background-color: antiquewhite;
+  margin: 20px 0px;
+}
+.text1 {
+  color: black;
+  padding: 5px;
+}
+.text2 {
+  color: gray;
+  padding: 5px;
+}
+.form {
+  padding: 20px;
+}
+.form input {
+  padding: 10px;
+  border: 1px solid gray;
+}
+.form button {
+  padding: 10px;
+  border: none;
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.form button:hover {
+  background-color: rgb(3, 88, 3);
+}

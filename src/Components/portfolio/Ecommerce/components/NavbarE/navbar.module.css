@@ -1,0 +1,161 @@
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  color: black;
+  align-items: center;
+  padding: 0px 20px;
+  border-bottom: 1px solid #ddd;
+}
+.linkList {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 15px;
+}
+.linkList a {
+  font-weight: bold;
+}
+.linkList a:hover {
+  color: darkgreen;
+}
+.active {
+  border-bottom: 2px solid limegreen;
+}
+.home {
+  border-bottom: 2px solid yellow;
+}
+.search {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 10px;
+}
+.dropDownContainer {
+  position: relative;
+  cursor: pointer;
+}
+.dropDownList {
+  position: absolute;
+  display: none;
+  background-color: rgb(245, 239, 239);
+  right: 0;
+  width: 110px;
+  padding: 15px;
+}
+.log {
+  height: 30px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.log button {
+  padding: 5px 15px;
+  border: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.log button:hover {
+  border: 1px solid black;
+}
+.dropDownList p {
+  padding-bottom: 10px;
+  color: gray;
+  font-weight: 400;
+}
+.dropDownList p:hover {
+  color: black;
+}
+.dropDownContainer:hover .dropDownList {
+  display: block;
+}
+.shoppingBag {
+  position: relative;
+}
+.shoppingBag span {
+  display: grid;
+  place-content: center;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  bottom: -1px;
+  right: -3px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 11px;
+  padding: 8px;
+}
+.menuIcon {
+  display: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 650px) {
+  .menuIcon {
+    display: block;
+  }
+  .linkList {
+    display: none;
+  }
+}
+.dropDownSmall {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  bottom: 0;
+
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.show {
+  width: 90%;
+  margin: auto;
+}
+.hidde {
+  width: 0px;
+}
+.leftArrow {
+  display: inline-grid;
+  grid-template-columns: max-content max-content;
+  column-gap: 5px;
+  align-items: center;
+
+  cursor: pointer;
+  padding: 5px;
+  margin: 10px;
+}
+.leftArrow span {
+  font-weight: 500;
+  color: gray;
+}
+.leftArrow:hover span {
+  color: black;
+}
+.smallNavlink {
+  margin: 10px;
+  display: grid;
+
+  grid-template-columns: max-content;
+}
+.smallNavlink a {
+  padding: 7px 0px;
+  font-weight: 700;
+  color: gray;
+}
+.smallNavlink a:hover {
+  color: black;
+}
+@media screen and (max-width: 650px) {
+  a.active {
+    color: black;
+    border: none;
+  }
+}
+.homeLink {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+}

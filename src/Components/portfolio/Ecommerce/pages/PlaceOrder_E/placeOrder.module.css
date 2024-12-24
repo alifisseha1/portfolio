@@ -1,0 +1,79 @@
+.wraper {
+  padding: 0px 20px;
+  display: grid;
+  grid-template-columns: 1fr 35%;
+  grid-template-rows: 1fr;
+
+  column-gap: 70px;
+  margin-bottom: 100px;
+}
+.leftSide input {
+  padding: 5px;
+  margin-top: 12px;
+}
+.leftSide {
+  padding-top: 25px;
+}
+.nameList {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 10px;
+}
+
+.emailList {
+  display: grid;
+}
+.rightSide {
+}
+
+.paymentMethode {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 5px;
+}
+.payment {
+  border: 1px solid gray;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.payment:hover .active {
+  background-color: rgb(18, 200, 18);
+}
+.active {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid rgb(197, 194, 194);
+}
+.method {
+  padding: 9px 0px;
+  margin: 10px 0px;
+}
+.method span {
+  padding-right: 5px;
+}
+.meth {
+  color: black;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.bg {
+  background-color: rgb(18, 200, 18);
+}
+.placeOrder button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 20px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.placeOrder button:hover {
+  background-color: rgb(3, 97, 3);
+}

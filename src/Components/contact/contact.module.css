@@ -1,0 +1,85 @@
+.contact {
+  height: 100vh;
+  overflow: hidden;
+}
+.contactBox {
+  height: 100%;
+  margin-top: 70px;
+}
+.contactMe {
+  margin-top: 130px;
+  text-align: center;
+  font-size: 30px;
+}
+.contactSide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin-top: 70px;
+  padding: 20px;
+  column-gap: 30px;
+}
+.contactLeftSide {
+  display: grid;
+  align-content: space-evenly;
+  background-color: black;
+  padding: 0px 20px;
+  border: 1px solid goldenrod;
+}
+.contactLeftSide img {
+  height: 100px;
+  width: 200px;
+}
+.contactIcons {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 15px;
+  margin-bottom: 5px;
+}
+.contactText {
+  padding: 20px 0px;
+  text-align: justify;
+  line-height: 20px;
+}
+.contactRightSide {
+  background-color: black;
+  border: 1px solid goldenrod;
+
+  padding: 20px;
+}
+.inp {
+  width: 100%;
+  padding: 10px;
+
+  border: none;
+  background-color: rgb(66, 64, 64);
+  margin: 15px 0px;
+  color: white;
+}
+.inp::placeholder {
+  color: rgb(115, 117, 117);
+}
+.message {
+  width: 100%;
+  height: 110px;
+  padding: 8px;
+  background-color: rgb(66, 64, 64);
+  margin: 15px 0px;
+  color: white;
+}
+.submitButton {
+  border: none;
+  background-color: rgb(66, 64, 64);
+  color: whitesmoke;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contactImg {
+  display: grid;
+  justify-content: center;
+}
+.buttonSubmit {
+  display: grid;
+  justify-content: center;
+}

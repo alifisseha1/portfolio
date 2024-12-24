@@ -1,0 +1,57 @@
+.aboutText {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 30px;
+}
+.aboutList {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+}
+.img {
+  width: 200px;
+  height: 250px;
+  border: 1px solid goldenrod;
+}
+.aboutList {
+  margin-top: 70px;
+}
+.progressbar {
+  height: 6px;
+  /* max-width: 250px; */
+
+  border-radius: 20px;
+}
+.progress {
+  border-radius: 20px;
+  height: 100%;
+  background-color: rgb(53, 53, 228);
+}
+.progressList {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+.progressBox {
+  margin-top: 20px;
+  border: 1px solid white;
+  padding: 5px;
+}
+.progressInside {
+  display: inline-block;
+  padding: 10px;
+  width: 80%;
+}
+
+.aboutRight {
+  padding-right: 40px;
+}
+.text {
+  text-align: justify;
+}
+.aboutImg {
+  display: grid;
+  place-content: center;
+}

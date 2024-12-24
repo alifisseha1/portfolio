@@ -1,0 +1,22 @@
+.sidebar {
+  border: 1px solid #a9a9a9;
+  height: 100%;
+  border-top: 0px;
+  padding-left: 30px;
+  padding-top: 40px;
+}
+.sidebar_option {
+  display: grid;
+  align-content: center;
+  border: 1px solid #a9a9a9;
+  border-right: 0;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.sidebar_option a {
+  padding: 10px;
+}
+
+.active {
+  background-color: gold;
+}

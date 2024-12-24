@@ -1,0 +1,94 @@
+.navbar {
+  display: grid;
+  grid-auto-flow: column;
+  background-color: #ece7e7;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+  z-index: 1;
+}
+.logo {
+  width: 80px;
+  border: 3px solid gold;
+}
+.navbar_menu {
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3, max-content);
+
+  justify-content: center;
+  list-style: none;
+  column-gap: 15px;
+  align-items: center;
+}
+.navbar_right {
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3, max-content);
+  column-gap: 15px;
+  align-items: center;
+
+  justify-content: end;
+}
+.navbar_right button {
+  border: 2px solid goldenrod;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 30px;
+  background-color: transparent;
+  padding: 5px 12px;
+  transition: 0.3s;
+}
+.navbar_right button:hover {
+  background-color: white;
+}
+.navbar_menu a.active {
+  border-bottom: 2px solid gold;
+}
+.navbar_search {
+  position: relative;
+}
+.navbar_search .dot {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 10px;
+
+  min-height: 10px;
+  min-width: 10px;
+}
+
+.navbar_search .hide {
+  display: none;
+}
+.navbar_profile {
+  position: relative;
+  cursor: pointer;
+  font-size: 12px;
+}
+.nav_profile_dropdown {
+  background-color: white;
+  list-style: none;
+  border: 2px solid gold;
+  display: none;
+  z-index: 1;
+
+  position: absolute;
+  right: 0px;
+}
+.nav_profile_dropdown li {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  column-gap: 5px;
+  padding: 8px;
+}
+.navbar_profile:hover .nav_profile_dropdown {
+  display: grid;
+}
+.nav_order:hover p {
+  color: green;
+}
+.nav_logout:hover p {
+  color: red;
+}

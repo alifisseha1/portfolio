@@ -1,0 +1,52 @@
+.navbar {
+  position: sticky;
+  top: 0;
+
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-content: center;
+  padding: 15px 15px;
+  background-color: #070714;
+  border-bottom: 1px solid lightgray;
+}
+.fish {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.ul {
+  display: grid;
+  grid-auto-flow: column;
+
+  column-gap: 20px;
+}
+.ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+.ul li a {
+  padding: 5px;
+}
+.ul li a:hover {
+  border-bottom: 2px solid gold;
+}
+.logo {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  background-color: #070714;
+}
+.active {
+  border-bottom: 2px solid gold;
+}
+.ulList {
+  display: grid;
+  align-content: center;
+  padding-right: 15px;
+}
+.nameList {
+  color: rgb(177, 152, 10);
+}

@@ -1,0 +1,98 @@
+.listImage {
+  display: grid;
+  row-gap: 10px;
+}
+.listImage img {
+  width: 100px;
+  height: 120px;
+  cursor: pointer;
+}
+.imageContainer {
+  display: grid;
+  grid-template-columns: max-content 1fr 2fr;
+  padding: 20px;
+  column-gap: 10px;
+  margin-top: 20px;
+}
+.stars {
+  padding: 5px 0px;
+
+  display: inline-grid;
+  grid-auto-flow: column;
+  justify-content: center;
+}
+.stars span {
+  color: black;
+  padding-left: 6px;
+}
+.price {
+  color: black;
+  padding: 5px 0px;
+  font-weight: 600;
+}
+.button {
+  border: none;
+  background-color: #ddd;
+  padding: 5px 7px;
+  margin: 3px;
+  cursor: pointer;
+}
+.buttonSize {
+  background-color: green;
+  color: white;
+}
+.addTocart {
+  padding: 7px 10px;
+  margin-top: 15px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.addTocart:hover {
+  background-color: rgb(3, 79, 3);
+}
+.textDescription {
+  font-size: 12px;
+  color: gray;
+  padding-top: 20px;
+}
+.description {
+  display: inline-grid;
+  grid-auto-flow: column;
+}
+.description b {
+  color: black;
+  font-size: 13px;
+  border: 1px solid rgb(206, 200, 200);
+  padding: 5px;
+}
+.description p {
+  color: rgb(41, 40, 40);
+  font-size: 12px;
+  border: 1px solid rgb(206, 200, 200);
+  padding: 5px;
+}
+.descriptionText {
+  color: gray;
+  border: 1px solid rgb(206, 200, 200);
+  padding: 20px;
+  font-size: 13px;
+}
+.bottomContainer {
+  padding: 20px;
+}
+.allProduct {
+  margin-left: 10px;
+  padding: 7px 10px;
+  margin-top: 15px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.allProduct:hover {
+  background-color: rgb(3, 79, 3);
+}

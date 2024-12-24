@@ -1,0 +1,21 @@
+.wraper {
+  padding: 30px 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  border: 1px solid rgb(202, 199, 199);
+  padding: 10px;
+}
+.container img {
+  width: 100%;
+}
+.customer {
+  color: black;
+  padding-bottom: 7px;
+}
+.textP {
+  color: gray;
+  padding-bottom: 7px;
+}

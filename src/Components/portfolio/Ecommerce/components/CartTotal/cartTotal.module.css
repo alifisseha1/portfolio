@@ -1,0 +1,17 @@
+.total {
+  color: gray;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+.total b {
+  color: black;
+  font-weight: 700;
+  padding: 10px 0px;
+}
+.total p {
+  padding: 3px 0px;
+}
+.wraper {
+  margin-top: 30px;
+}

@@ -1,0 +1,21 @@
+.homeList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  background-color: #ddd;
+  color: black;
+  padding: 15px;
+}
+.singleHome {
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.homeText {
+  padding: 5px 0px;
+}
+.h1 {
+  text-align: center;
+  padding: 30px 0px;
+  background-color: rgb(117, 186, 236);
+  color: black;
+}

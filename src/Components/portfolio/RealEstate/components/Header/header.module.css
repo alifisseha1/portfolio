@@ -1,0 +1,36 @@
+.header {
+  background-image: url("../../assets/homePage.jpg");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: max-content 1fr;
+}
+.text {
+  place-self: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  padding: 20px;
+  color: white;
+}
+.list {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: center;
+  column-gap: 30px;
+}
+.project {
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.contact {
+  background-color: rgb(47, 154, 127);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+}

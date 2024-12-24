@@ -1,0 +1,74 @@
+.wraper {
+  padding: 20px 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 30px;
+}
+.categories {
+  border: 1px solid rgb(219, 216, 216);
+  padding: 20px 40px 20px 20px;
+  margin-top: 20px;
+}
+.categories p {
+  padding-top: 7px;
+}
+.categories input {
+  margin-right: 7px;
+}
+.textFilter {
+  color: black;
+  font-weight: 700;
+  font-size: 19px;
+}
+.leftDiv {
+  padding-top: 20px;
+}
+.cat {
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+.allP p {
+  color: gray;
+  font-size: 14px;
+}
+.check {
+  cursor: pointer;
+}
+.sort {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 10px 40px;
+}
+.sort p {
+  color: gray;
+}
+.sort span {
+  color: black;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.select {
+  padding: 8px;
+}
+.select option {
+  font-weight: 500;
+}
+.allImageContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-top: 10px;
+}
+/* .rightDiv {
+  border: 1px solid red;
+} */

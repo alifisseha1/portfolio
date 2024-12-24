@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+  padding: 20px 0px;
+}
+.input {
+  outline: none;
+  border: none;
+  width: 300px;
+  font-size: 15px;
+}
+.inputBox {
+  border: 1px solid gray;
+  display: inline-grid;
+  grid-template-columns: max-content max-content;
+  justify-content: space-between;
+  column-gap: 5px;
+  padding: 5px 10px;
+}
+.inputBox span {
+  display: inline-grid;
+  justify-content: center;
+}
+
+.close {
+  color: black;
+  cursor: pointer;
+
+  padding: 5px;
+}
+.close:hover {
+  color: red;
+}

@@ -1,0 +1,39 @@
+.wraper {
+  padding: 30px 20px;
+}
+.aboutList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  color: gray;
+  margin-bottom: 10px;
+  border: 1px solid rgb(189, 187, 187);
+  padding: 10px;
+}
+.aboutList img {
+  width: 100%;
+}
+.aboutList p {
+  font-size: 12px;
+}
+.choose {
+  padding: 20px 0px;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  font-size: 13px;
+  color: rgb(84, 83, 83);
+}
+.box div {
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: #f7f3f3;
+}
+.box b {
+  color: black;
+  font-size: 15px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
