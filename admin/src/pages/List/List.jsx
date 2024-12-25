@@ -4,7 +4,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { Close } from "@mui/icons-material";
 const List = () => {
-  const url = "http://localhost:4000";
+  const url = "https://portfolio-backend-y9tr.onrender.com";
   const [list, setList] = useState([]);
   const fetchList = async () => {
     const response = await axios.get(`${url}/api/food/list`);
