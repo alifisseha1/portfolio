@@ -5,7 +5,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 
 const Add = () => {
-  const url = "http://localhost:4000";
+  const url = "https://portfolio-backend-y9tr.onrender.com";
   const [image, setImage] = useState(false);
 
   const [data, setDate] = useState({
