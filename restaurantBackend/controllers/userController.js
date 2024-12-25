@@ -11,7 +11,7 @@ const loginUser = async (req, res) => {
     if (!user) {
       return res.json({ success: false, message: "User Doesn't exis" });
     }
-    const isMatch = await bcrypt.compare(password, user.password);
+    // const isMatch = await bcrypt.compare(password, user.password);
     const isMatch = password === user.password;
     
     
