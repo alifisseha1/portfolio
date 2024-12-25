@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useContext } from "react";
 import { StoreContext } from "../context/StoreContext";
 import { Close } from "@mui/icons-material";
-// import { toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 const Myorders = () => {
   const { url, token } = useContext(StoreContext);
@@ -23,11 +23,11 @@ const Myorders = () => {
     });
 
     await fetchOrders();
-    // if (response.data.success) {
-    //   // toast.success(response.data.message);
-    // } else {
-    //   // toast.error("Error");
-    // }
+    if (response.data.success) {
+      toast.success(response.data.message);
+    } else {
+      toast.error("Error");
+    }
   };
   useEffect(() => {
     if (token) {
