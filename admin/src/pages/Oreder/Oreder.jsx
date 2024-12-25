@@ -3,7 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 const Oreder = () => {
-  const url = "http://localhost:4000";
+  const url = "https://portfolio-backend-y9tr.onrender.com";
   const [orders, setOrders] = useState([]);
   const fetchAllOrders = async () => {
     const response = await axios.get(url + "/api/order/list");
