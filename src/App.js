@@ -18,7 +18,8 @@ import LoginE from "./Components/portfolio/Ecommerce/pages/Login_E/LoginE";
 import OrdersE from "./Components/portfolio/Ecommerce/pages/Oreders_E/OrdersE";
 import PlaceOrderE from "./Components/portfolio/Ecommerce/pages/PlaceOrder_E/PlaceOrderE";
 import ProductE from "./Components/portfolio/Ecommerce/pages/Product_E/ProductE";
-
+const x = "Fisseha";
+console.log(x);
 import RealEstate from "./Components/portfolio/RealEstate/RealEstate";
 
 const router = createBrowserRouter([
@@ -110,6 +111,8 @@ const router = createBrowserRouter([
   },
 ]);
 function App() {
+  const x1 = "Fisseha ali";
+console.log(x1);
   return (
     <div>
       <RouterProvider router={router} />
