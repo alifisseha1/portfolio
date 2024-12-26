@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import "./index.html";
+
 console.log("app");
 import App from "./App";
 import StoreContextProvider from "./Components/portfolio/Restauran/context/StoreContext";
